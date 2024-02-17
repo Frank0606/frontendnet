@@ -1,0 +1,28 @@
+div {
+    color: red;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    color: blue;
+    font-size: 12px;
+}
+
+#bloque1 {
+    background-color: aqua;
+    font-size: 2rem;
+}
+
+header {
+    border: 20px solid #000;
+}
+
+img {
+    border: 30px solid #ff0404;
+    padding: 20px 50px;
+    margin: auto;
+    display: block;
+}
