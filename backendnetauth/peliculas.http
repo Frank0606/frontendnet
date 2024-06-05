@@ -1,0 +1,74 @@
+GET https://localhost:7122/api/peliculas
+
+###
+
+GET https://localhost:7122/api/peliculas/2
+
+###
+
+POST https://localhost:7122/api/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "Película de prueba",
+    "sinopsis": "Sinopsis de prueba.",
+    "anio": 2024,
+    "poster": "Sin poster",
+    "categorias": [2, 3]
+}
+
+###
+
+PUT https://localhost:7122/api/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "Paw Patrol: La Súper Película",
+    "sinopsis": "Un meteorito mágico aterriza en Adventure City y otorga superpoderes a los cachorros de PAW Patrol, convirtiéndolos en The Mighty Pups.",
+    "anio": 2024,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMGI4NTNlODItMGJlZi00OTIwLTlkM2ItMWFkZjJhZDIzMDc3XkEyXkFqcGdeQXVyMTEyNzQ1MTk0._V1_SX300.jpg",
+    "categorias": [1, 2, 3]
+}
+
+###
+
+DELETE https://localhost:7122/api/peliculas/18
+
+###
+
+POST https://localhost:7122/api/peliculas/17
+Content-Type: application/json
+
+{
+    "titulo": "SAW II",
+    "sinopsis": "Aparece una nueva víctima de Jigsaw y Eric Matthews decide investigar. Jigsaw es detenido, aunque esto forma parte de su plan, y del que Matthews deberá participar si desea salvar a otras 8 personas.",
+    "anio": 2012,
+    "poster": "SIN poster",
+    "categorias": [6, 12]
+}
+
+###
+
+PUT https://localhost:7122/api/peliculas/18
+Content-Type: application/json
+
+{
+    "titulo": "scream 5",
+    "sinopsis": "Veinticinco años después de la masacre ocurrida en Woodsboro, un nuevo asesino se pone la legendaria máscara para matar adolescentes.",
+    "anio": 2020,
+    "poster": "SIN poster",
+    "categorias": [6, 12]
+}
+
+###
+
+PUT https://localhost:7122/api/peliculas/19
+Content-Type: application/json
+
+{
+    "titulo": "Hallowen 2018",
+    "sinopsis": "El despiadado Michael Myers escapa del autobús que lo traslada de regreso a Haddonfield, Illinois, para asesinar a Laurie Strode, quien por cuatro décadas ha sufrido la locura de este enmascarado.",
+    "anio": 2018,
+    "poster": "SIN poster",
+    "categorias": [6, 12]
+}
